@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Blue theme](ss/Screenshot1.jpg)
+![Blue theme](ss\Screenshot1.jpg)
 ![Green theme](ss/Screenshot2.jpg)
 ![Dark theme](ss/Screenshot3.jpg)
 
