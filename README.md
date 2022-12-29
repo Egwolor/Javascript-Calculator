@@ -30,15 +30,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](ss\Screenshot1.jpg)
-![](ss\Screenshot2.jpg)
-![](ss\Screenshot3.jpg)
+![Blue theme](ss\Screenshot1.jpg)
+![Green theme](ss\Screenshot2.jpg)
+![Dark theme](ss\Screenshot3.jpg)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/Egwolor/Javascript-Calculator)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process

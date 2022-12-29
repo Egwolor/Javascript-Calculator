@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>calculator</title>
+</head> 
+
+<body id="body">
+    <div class="calculator">
+        <div class="calculator-main">
+        <div class="calculator-screen">
+            <div class="theme-button">
+            <div class=" theme" id="blue" onclick="MyTheme('blue')"></div>
+            <div class=" theme " id="dark" onclick="MyTheme('dark')"></div>
+            <div class="theme" id="green" onclick="MyTheme('green')"></div>
+        </div>
+        
+            <p id="Myscreen" class="screen"></p>
+        </div>
+        
+            <table>
+                <tr class="row">
+                    <td>
+                        <button type="submit" onclick="btn('√')">√</button>
+                    </td>
+                    <td>
+                        <button type="submit" onclick="pct()">%</button>
+                    </td>
+
+                    <td>
+                        <button type="submit" onclick="backSpace()">C</button>
+                    </td>
+                    <td>
+                        <button type="submit" class="right-btn" id="plus" onclick="btn('&plus;')">&plus;</button>
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td>
+                        <button type="submit" onclick="btn(7)">7</button>
+                    </td>
+                    <td>
+                        <button type="submit" onclick="btn(8)">8</button>
+                    </td>
+                    <td>
+                        <button type="submit" onclick="btn(9)">9</button>
+                    </td>
+                    <td>
+                        <button type="submit" class="right-btn" id="minus" onclick="btn('-')">-</button>
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td>
+                        <button type="submit" onclick="btn(4)">4</button>
+                    </td>
+                    <td>
+                        <button type="submit" onclick="btn(5)">5</button>
+                    </td>
+                    <td>
+                        <button type="submit" onclick="btn(6)">6</button>
+                    </td>
+                    <td>
+                        <button type="submit" class="right-btn" id="times" onclick="btn('*')">&times;</button>
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td>
+                        <button type="submit" onclick="btn(1)">1</button>
+                    </td>
+                    <td>
+                        <button type="submit" onclick="btn(2)">2</button>
+                    </td>
+                    <td>
+                        <button type="submit" onclick="btn(3)">3</button>
+                    </td>
+                    <td>
+                        <button type="submit" class="right-btn" id="divide" onclick="btn('/')">&divide;</button>
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td>
+                        <button type="submit" onclick="clearScreen()">CE</button>
+                    </td>
+                    <td>
+                        <button type="submit" onclick="btn(0)">0</button>
+                    </td>
+                    <td>
+                        <button type="submit" onclick="btn('.')">.</button>
+                    </td>
+                    <td>
+                        <button type="submit" id="equal" class="right-btn equal-sign" onclick="MyAnswer()">=</button>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+   
+</body>
+
+</html>
