@@ -8,14 +8,15 @@ body{
     background-size: 400% 400%;
     font-family: 'inter', sans-serif;
     color:#fff;
+    transition: .5s;
 }
 .calculator{
     position: relative;
-    top:100px;
+    top:50px;
     left:0;
     right:0;
-    width:250px;
-    height:430px;
+    width:350px;
+    height:560px;
     margin:auto;
     border-radius: 15px;
     opacity: 0.6;
@@ -29,8 +30,8 @@ body{
 }
 
 .theme{
-    width:13px;
-    height:13px;
+    width:20px;
+    height:20px;
     border-radius: 100%;
     background-color: #202074;
     display:inline-block;
@@ -44,7 +45,7 @@ body{
 
 .calculator-screen  .screen{
     position: absolute;
-    margin: 70px 15px 00px 5px;
+    margin: 70px 10px 00px 5px;
     text-align: end;
     right:0;
     top:20px;
@@ -53,7 +54,7 @@ body{
     height:12%;
     background-color: transparent;
     color:rgb(255, 255, 255);
-    transition:font-size .3s;
+    transition: .3s;
    
 }
 
@@ -72,12 +73,12 @@ body{
     padding:7px;
 }
 button{
-    font-size: 15px;
+    font-size: 23px;
     color:#fff;
     text-align: center;
-    width:40px;
-    margin:5px;
-    height:40px;
+    width:50px;
+    margin:15px;
+    height:50px;
     text-align: center;
     border-radius: 100%;
     background-color:  transparent;
@@ -90,7 +91,7 @@ button:focus{
     border:1px solid lightgrey;
 }
 table{
-    margin-top: 85px;
+    margin-top: 95px;
 
 }
 .right-btn{
@@ -100,8 +101,8 @@ table{
 }
 .equal-sign{
     border-radius: 10px;
-    width:45px;
-    height:45px;
+    width:50px;
+    height:50px;
     background-color:  #0c0c36;
     color:#2e2ef3;
     transition: .5s;

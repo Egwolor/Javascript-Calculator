@@ -55,10 +55,10 @@ function btn(number) {
     var replaced;
 
     // Sets the max length of inputs to 21 
-    if (Myscreen.innerText.length==21) {
+    if (Myscreen.innerText.length==30) {
         return false;
     }
-   else if (Myscreen.innerText !=""  && Myscreen.innerText.length == 7) {
+   else if (Myscreen.innerText !=""  && Myscreen.innerText.length == 12) {
         document.getElementById('Myscreen').style.fontSize="20px";
 
     }
@@ -267,7 +267,7 @@ function MyAnswer() {
     Myscreen = document.getElementById("Myscreen");
 
     Myscreen.innerText;
-        document.getElementById('Myscreen').style.fontSize="15px";
+        document.getElementById('Myscreen').style.fontSize="20px";
     if (Myscreen.innerText.includes('√')) {
       var  MyAnswer = Math.sqrt(Myscreen.innerText.slice(1));
         Myscreen.innerText = MyAnswer;
