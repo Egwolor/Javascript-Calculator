@@ -9,7 +9,7 @@ body{
     font-family: 'inter', sans-serif;
     color:#fff;
     transition: .5s;
-}
+} 
 .calculator{
     position: relative;
     top:50px;
